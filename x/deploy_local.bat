@@ -7,9 +7,6 @@ call composer install
 :: update database
 php artisan migrate
 
-:: Updates assets to installed version
-php artisan canvas:publish
-
 ::optimise code for prod prior to server webhook
 call npm run prod
 

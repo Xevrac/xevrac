@@ -21,9 +21,6 @@ call composer install --no-interaction --no-dev --prefer-dist
 :: update database
 php artisan migrate --force
 
-:: Updates assets to installed version
-php artisan canvas:publish
-
 :: --force  Required to run when in production.
 
 :: create version file
