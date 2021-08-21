@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.28",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.6",
+        "sass": "^1.38.0",
+        "sass-loader": "12.1.0"
+    },
+    "dependencies": {
+        "alpinejs": "^3.2.3",
+        "autoprefixer": "^10.3.1",
+        "particles.js": "^2.0.0",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^2.2.7"
+    }
+}
