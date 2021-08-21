@@ -1,2 +1,0 @@
-php artisan serve
-pause
