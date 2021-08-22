@@ -44,7 +44,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-400 text-sm">
-                                    Small bio - 
+                                    {{ file_exists(base_path() . '/resources/markdown/about.md') ? File::get(base_path() . '/resources/markdown/about.md') : '{error: about_md_missing}' }}
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-400 text-sm">
-                                    Xevnet, OzNode etc. - add more info/hypertext
+                                    {{ file_exists(base_path() . '/resources/markdown/projects.md') ? File::get(base_path() . '/resources/markdown/projects.md') : '{error: projects_md_missing}' }}
                                 </div>
                             </div>
                         </div>
