@@ -1,1 +1,1 @@
-{proj_md_placeholder_content}
+My current projects:
