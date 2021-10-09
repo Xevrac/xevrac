@@ -1,1 +1,1 @@
-My current projects:
+Take a look at some of my projects below.
