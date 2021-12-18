@@ -38,7 +38,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
                             <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
                                 <div class="ml-4 text-lg leading-7 font-semibold text-white">About</div>
                             </div>
 
@@ -51,7 +51,7 @@
 
                         <div class="p-6 border-gray-700 md:border-t-0 md:border-l">
                             <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"/></svg>
                                 <div class="ml-4 text-lg leading-7 font-semibold text-white">Projects</div>
                             </div>
 
@@ -59,7 +59,7 @@
                                 <div class="mt-2 text-gray-400 text-sm">
                                     {{ file_exists(base_path() . '/resources/markdown/projects.md') ? File::get(base_path() . '/resources/markdown/projects.md') : '{error: projects_md_missing}' }}
                                     <br>
-                                    <a href="https://oznode.xevrac.com" class="underline hover:text-gray-600">OzNode</a>, <a href="https://gaming.xevrac.com" class="underline hover:text-gray-600">Xevnet</a>, <a href="http://tse.xevrac.com" class="underline hover:text-gray-600">TSExpansion</a>
+                                    <a href="https://gaming.xevrac.com" class="underline hover:text-gray-600">Xevnet</a>, <a href="http://tse.xevrac.com" class="underline hover:text-gray-600">TSExpansion</a>, <a href="http://nwc.xevrac.com" class="underline hover:text-gray-600">Northwest Crypto</a>, <a href="https://oznode.xevrac.com" class="underline hover:text-gray-600">OzNode</a>
                                 </div>
                             </div>
                         </div>
@@ -95,6 +95,15 @@
 
                             <a href="https://github.com/Xevrac" class="ml-1 underline text-gray-600 hover:text-gray-400">
                                 GitHub
+                            </a>
+
+                            <div class="border-gray-500 md:border-t-0 md:border-l ml-5">&nbsp;</div>
+
+                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="ml-4 w-5 h-5 text-red-400 dark:text-white">
+                            <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+
+                            <a href="donate" class="ml-1 underline text-gray-600 hover:text-gray-400">
+                            Donate
                             </a>
                         </div>
                     </div>
