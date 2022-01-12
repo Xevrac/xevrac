@@ -58,8 +58,7 @@
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-400 text-sm">
                                     {{ file_exists(base_path() . '/resources/markdown/projects.md') ? File::get(base_path() . '/resources/markdown/projects.md') : '{error: projects_md_missing}' }}
-                                    <br>
-                                    <a href="https://gaming.xevrac.com" class="underline hover:text-gray-600">Xevnet</a>, <a href="http://tse.xevrac.com" class="underline hover:text-gray-600">TSExpansion</a>, <a href="http://nwc.xevrac.com" class="underline hover:text-gray-600">Northwest Crypto</a>, <a href="https://oznode.xevrac.com" class="underline hover:text-gray-600">OzNode</a>
+                                    <a href="https://docs.xevrac.com" class="underline hover:text-gray-600">Docs</a>
                                 </div>
                             </div>
                         </div>
