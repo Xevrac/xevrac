@@ -45,7 +45,7 @@
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-400 text-sm">
                                     {{ file_exists(base_path() . '/resources/markdown/about.md') ? File::get(base_path() . '/resources/markdown/about.md') : '{error: about_md_missing}' }}
-                                    <a href="https://gaming.xevrac.com/about" class="underline hover:text-gray-600">Learn more</a>
+                                    <a href="https://gaming.xevrac.com/about" class="underline hover:text-gray-600">- Learn more</a>
                                 </div>
                             </div>
                         </div>
