@@ -1,1 +1,1 @@
-To take a look at some of my projects please visit my Documentation repository - 
+To view my projects, visit the repository where I have documented them - 
