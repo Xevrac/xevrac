@@ -3,4 +3,4 @@ Welcome to my Github, I work on a collection of public/private repos in my own t
 
 ## Stats
 
-[GitHub Streak](https://streak-stats.demolab.com?user=Xevrac&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Xevrac&theme=tokyonight&hide_border=true&mode=weekly" alt="GitHub Streak" /></a>
