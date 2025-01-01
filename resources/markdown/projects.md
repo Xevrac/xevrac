@@ -1,1 +1,1 @@
-To view my projects, visit the repository where I have documented them - 
+To view my public projects, visit GitHub - 

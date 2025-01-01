@@ -1,1 +1,1 @@
-My alias is xevrac, xev for short. Telecomm. & Network Technician by day. Husband, father and gamer by night -
+My alias is xevrac, xev for short. Systems Administrator and Solutions Architect. Add a sprinkle of webapp development on top with a dash of gaming -
