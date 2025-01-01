@@ -1,25 +1,17 @@
 .info-fade {
-    animation: fadeInInfo ease 2s;
+    animation: fadeInUnblur ease 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
-@keyframes fadeInInfo {
+@keyframes fadeInUnblur {
     0% {
-        opacity:0;
-    }
-    20% {
-        opacity:0.2;
-    }
-    40% {
-        opacity:0.4;
-    }
-    60% {
-        opacity:0.6;
-    }
-    80% {
-        opacity:0.8;
+        opacity: 0;
+        filter: blur(10px);
     }
     100% {
-        opacity:1;
+        opacity: 1;
+        filter: blur(0);
     }
 }
 
